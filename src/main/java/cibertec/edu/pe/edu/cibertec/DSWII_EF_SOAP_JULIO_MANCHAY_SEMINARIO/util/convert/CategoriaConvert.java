@@ -12,11 +12,11 @@ import java.util.List;
 public class CategoriaConvert {
 
     public Categoria mapearACategoria(Categoriaws categoriaws){
-        Categoria especialidad = new Categoria();
+        Categoria categoria = new Categoria();
         categoriaws.setId(categoriaws.getId());
-        especialidad.setNombre(categoriaws.getNombre());
-        especialidad.setDescripcion(categoriaws.getDescripcion());
-        return especialidad;
+        categoria.setNombre(categoriaws.getNombre());
+        categoria.setDescripcion(categoriaws.getDescripcion());
+        return categoria;
     }
     public Categoriaws mapearACategoriaws(Categoria categoria){
         Categoriaws categoriaws = new Categoriaws();
