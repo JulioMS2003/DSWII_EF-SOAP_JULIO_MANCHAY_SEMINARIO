@@ -78,7 +78,10 @@ INSERT INTO Categoria (nombre, descripcion) VALUES
 ('Ciencia', 'Libros de ciencia y tecnología'),
 ('Historia', 'Libros sobre eventos históricos'),
 ('Literatura Infantil', 'Libros para niños'),
-('Literatura Juvenil', 'Libros para jóvenes adultos');
+('Literatura Juvenil', 'Libros para jóvenes adultos'),
+('Literatura Griega', 'Libros para jóvenes adultos'),
+('Literatura Romana', 'Libros para jóvenes adultos');
+
 
 INSERT INTO Bibliotecario (nombre, idcategoria, telefono, correo) VALUES
 ('Carlos Jiménez', 1, '987654321', 'cjimenez@biblioteca.com'),
@@ -86,7 +89,10 @@ INSERT INTO Bibliotecario (nombre, idcategoria, telefono, correo) VALUES
 ('David Torres', 3, '934567890', 'dtorres@biblioteca.com'),
 ('Ana Gutiérrez', 4, '923456789', 'agutierrez@biblioteca.com'),
 ('Rosa López', 5, '911223344', 'rlopez@biblioteca.com'),
-('Miguel Romero', 6, '922233344', 'mromero@biblioteca.com');
+('Miguel Romero', 6, '922233344', 'mromero@biblioteca.com'),
+('Juan Alberto', 6, '922233344', 'mromero@biblioteca.com'),
+('Julio Manchay', 6, '922233344', 'mromero@biblioteca.com');
+
 
 INSERT INTO Prestamo (idmiembro, idlibro, fecha_prestamo, fecha_devolucion, motivo) VALUES
 (1, 1, '2024-10-01', NULL, 'Lectura personal'),
@@ -94,7 +100,10 @@ INSERT INTO Prestamo (idmiembro, idlibro, fecha_prestamo, fecha_devolucion, moti
 (3, 3, '2024-10-03', NULL, 'Investigación'),
 (4, 4, '2024-10-04', '2024-10-12', 'Lectura de placer'),
 (5, 5, '2024-10-05', NULL, 'Preparación para examen'),
-(6, 6, '2024-10-06', '2024-10-14', 'Recomendación');
+(6, 6, '2024-10-06', '2024-10-14', 'Recomendación'),
+(7, 7, '2024-10-07', '2024-10-15', 'Investigación'),
+(8, 8, '2024-10-08', '2024-10-16', 'Recomendación');
+
 
 INSERT INTO DetallePrestamo (idprestamo, idlibro, instrucciones) VALUES
 (1, 1, 'Leer durante 1 mes'),
@@ -102,4 +111,7 @@ INSERT INTO DetallePrestamo (idprestamo, idlibro, instrucciones) VALUES
 (3, 3, 'Mantener el libro seco'),
 (4, 4, 'No marcar las páginas'),
 (5, 5, 'Consultar con el bibliotecario si hay dudas'),
-(6, 6, 'Leer en un plazo de 2 semanas');
+(6, 6, 'Leer en un plazo de 2 semanas'),
+(7, 7, 'Consultar con el bibliotecario si hay dudas'),
+(8, 8, 'No marcar las páginas');
+
