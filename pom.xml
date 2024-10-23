@@ -96,7 +96,7 @@
 				</executions>
 				<configuration>
 					<sources>
-						<source>${project.basedir}/src/main/resources/xsd/miembro.xsd</source>
+						<source>${project.basedir}/src/main/resources/xsd/categoria.xsd</source>
 					</sources>
 					<outputDirectory>src/main/java</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>

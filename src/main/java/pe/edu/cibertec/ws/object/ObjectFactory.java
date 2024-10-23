@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.10.23 a las 02:21:30 AM EST 
+// Generado el: 2024.10.23 a las 07:34:21 AM EST 
 //
 
 
@@ -37,75 +37,75 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link PostMiembroRequest }
+     * Create an instance of {@link PostCategoriaRequest }
      * 
      */
-    public PostMiembroRequest createPostMiembroRequest() {
-        return new PostMiembroRequest();
+    public PostCategoriaRequest createPostCategoriaRequest() {
+        return new PostCategoriaRequest();
     }
 
     /**
-     * Create an instance of {@link Miembrows }
+     * Create an instance of {@link Categoriaws }
      * 
      */
-    public Miembrows createMiembrows() {
-        return new Miembrows();
+    public Categoriaws createCategoriaws() {
+        return new Categoriaws();
     }
 
     /**
-     * Create an instance of {@link PostMiembroResponse }
+     * Create an instance of {@link PostCategoriaResponse }
      * 
      */
-    public PostMiembroResponse createPostMiembroResponse() {
-        return new PostMiembroResponse();
+    public PostCategoriaResponse createPostCategoriaResponse() {
+        return new PostCategoriaResponse();
     }
 
     /**
-     * Create an instance of {@link PutMiembroRequest }
+     * Create an instance of {@link PutCategoriaRequest }
      * 
      */
-    public PutMiembroRequest createPutMiembroRequest() {
-        return new PutMiembroRequest();
+    public PutCategoriaRequest createPutCategoriaRequest() {
+        return new PutCategoriaRequest();
     }
 
     /**
-     * Create an instance of {@link PutMiembroResponse }
+     * Create an instance of {@link PutCategoriaResponse }
      * 
      */
-    public PutMiembroResponse createPutMiembroResponse() {
-        return new PutMiembroResponse();
+    public PutCategoriaResponse createPutCategoriaResponse() {
+        return new PutCategoriaResponse();
     }
 
     /**
-     * Create an instance of {@link GetMiembrosRequest }
+     * Create an instance of {@link GetCategoriasRequest }
      * 
      */
-    public GetMiembrosRequest createGetMiembrosRequest() {
-        return new GetMiembrosRequest();
+    public GetCategoriasRequest createGetCategoriasRequest() {
+        return new GetCategoriasRequest();
     }
 
     /**
-     * Create an instance of {@link GetMiembrosResponse }
+     * Create an instance of {@link GetCategoriasResponse }
      * 
      */
-    public GetMiembrosResponse createGetMiembrosResponse() {
-        return new GetMiembrosResponse();
+    public GetCategoriasResponse createGetCategoriasResponse() {
+        return new GetCategoriasResponse();
     }
 
     /**
-     * Create an instance of {@link GetMiembroRequest }
+     * Create an instance of {@link GetCategoriaRequest }
      * 
      */
-    public GetMiembroRequest createGetMiembroRequest() {
-        return new GetMiembroRequest();
+    public GetCategoriaRequest createGetCategoriaRequest() {
+        return new GetCategoriaRequest();
     }
 
     /**
-     * Create an instance of {@link GetMiembroResponse }
+     * Create an instance of {@link GetCategoriaResponse }
      * 
      */
-    public GetMiembroResponse createGetMiembroResponse() {
-        return new GetMiembroResponse();
+    public GetCategoriaResponse createGetCategoriaResponse() {
+        return new GetCategoriaResponse();
     }
 
 }

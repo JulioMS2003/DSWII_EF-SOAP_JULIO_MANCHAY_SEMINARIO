@@ -28,11 +28,11 @@ public class LibroConvert {
         return librows;
     }
     public List<Libro> mapearALibroList(List<Librows> librowsList) {
-        List<Libro> medicamentoList = new ArrayList<>();
+        List<Libro> libroList = new ArrayList<>();
         for (Librows librows : librowsList) {
-            medicamentoList.add(mapearALibros(librows));
+            libroList.add(mapearALibros(librows));
         }
-        return medicamentoList;
+        return libroList;
     }
     public List<Librows> mapearALibrowsList(List<Libro> libroList) {
         List<Librows> librowsList = new ArrayList<>();
